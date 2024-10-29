@@ -1,0 +1,22 @@
+# Ignore WordPress files and folders
+/wp-config.php
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/backup-*
+/wp-admin
+wp-content/debug.log
+
+# Ignore system files
+*.log
+*.sql
+*.zip
+*.tar.gz
+*.DS_Store
+
+# Ignore SFTP config files, OS files, etc.
+.sftp-config.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.env
